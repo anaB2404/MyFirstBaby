@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!--Menu-->
+        <ul id="menu">
+            <!-- Botão do menu -->
+            <li class="button">
+                <i class="fas fa-bars btn btn-secondary" onclick="menu();"></i>
+            </li>
+
+            <!-- Imagem -->
+            <li class="img">
+                <img src="imagens/squarequick_20183616145422.jpg" class="img-fluid rounded-circle" /></li>
+
+            <!-- Nome -->
+            <li class="text-center mb-2 font-italic">
+                <asp:Label ID="lblFantasyName" runat="server" Text="Nome Fantasia"></asp:Label>
+            </li>
+
+            <!-- Email -->
+            <li class="mb-1 mt-4 font-italic">
+                <asp:Label ID="lblEmail" runat="server" Text="Email"></asp:Label>
+            </li>
+
+            <!-- Endereço -->
+            <li class="mb-1 font-italic">
+                <asp:Label ID="lblAddress" runat="server" Text="Endereço"></asp:Label>
+            </li>
+
+            <!-- Cidade -->
+            <li class="mb-1 font-italic">
+                <asp:Label ID="lblCity" runat="server" Text="Cidade"></asp:Label>
+            </li>
+
+            <!-- Telefone -->
+            <li class="mb-1 font-italic">
+                <asp:Label ID="lblPhone" runat="server" Text="Telefone"></asp:Label>
+            </li>
+
+            <li class="mt-3 font-weight-bold border-bottom pb-2">Relatórios</li>
+
+            <!-- Estoque -->
+            <li class="report">
+                <asp:Label ID="lblStock" runat="server" Text="Estoque" onClick="window.location.href='Stock.aspx';"></asp:Label>
+            </li>
+
+            <!-- Saída de estoque -->
+            <li class="report">
+                <asp:Label ID="lblEstoque" runat="server" Text="Saída de Estoque" onClick="window.location.href='Services.aspx';"></asp:Label>
+            </li>
+
+            <!-- Funcionários -->
+            <li class="report">
+                <asp:Label ID="Label2" runat="server" Text="Funcionários"></asp:Label>
+            </li>
+
+            <!-- Despesas -->
+            <li class="report">
+                <asp:Label ID="lblExpenses" runat="server" Text="Despesas"></asp:Label>
+            </li>
+
+            <!-- Sair -->
+            <li class="report">
+                <asp:Label ID="lblExit" runat="server" Text="Sair" onClick="window.location.href='Default.aspx';"></asp:Label>
+            </li>
+        </ul>
+
+        <style >
+        #menu {
+          display: block;
+          position: fixed;
+          left: 0;
+          top: 0;
+          padding-top: 20px;
+          width: 250px;
+          height: 100%;
+          background-color: rgba(0,0,0,.8);
+          transition-property: left;
+          transition-duration: 2s;
+          list-style: none;
+      }
+
+          #menu .img {
+              border-bottom: none;
+              max-width: 200px;
+          }
+
+          #menu li {
+              margin-bottom: 5%;
+              color: white;
+              margin-left: -20px;
+              width: 100%;
+          }
+
+          #menu .button {
+              position: absolute;
+              top: 5px;
+              left: 275px;
+          }
+
+          #menu .report:hover{
+              cursor: pointer;
+              color: rgb(0,102,199);
+          }
+        </style>
+
+    <script>
+        function menu() {
+            if ($('#menu').css('left') == '0px') {
+                $('#menu').css('left', '-250px');
+            } else {
+                $('#menu').css('left', '0px');
+            }
+        }
+    </script>
+  </body>
+</html>

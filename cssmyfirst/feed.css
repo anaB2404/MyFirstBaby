@@ -1,0 +1,420 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  overflow-x: hidden;
+  background-color:#fafafa;
+}
+
+
+.teste{
+	font-family: "MotiraItalic";
+}
+
+
+
+
+
+@font-face {
+    font-family: 'MotiraItalic';
+    src: url('../fonts/MotiraItalic.eot');
+    src: url('../fonts/MotiraItalic.eot') format('embedded-opentype'),
+         url('../fonts/MotiraItalic.woff2') format('woff2'),
+         url('../fonts/MotiraItalic.woff') format('woff'),
+         url('../fonts/MotiraItalic.ttf') format('truetype'),
+         url('../fonts/MotiraItalic.svg#MotiraItalic') format('svg');
+}
+
+.banner{
+       background-image: linear-gradient(to right, rgba(84, 174, 232, 0.5), pink);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center center;
+
+
+
+
+    }
+
+
+
+.bg-pink{   /*gradient*/
+   background-image: linear-gradient(to right, rgba(84, 174, 232, 0.5), pink);
+  }
+
+/* postagem */
+
+.shadow-textarea textarea.form-control::placeholder {
+  font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+  padding-left: 0.8rem;
+
+}
+.shadow-textarea{
+  width: 65%;
+  margin-left: 30%;
+  margin-top: -9%;
+}
+
+/*buttons postagem*/
+
+.form-group li{
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.form-group ul{
+  margin-left: -15%;
+  margin-top: 2%;
+}
+
+
+.form-group button {
+  color:#000000;
+  background-color: #FFFFFF;
+  text-decoration:none;
+  display: inline-block;
+  margin-left:170px;
+  margin-top:-115px;
+  border-color: #000000;
+  margin-bottom: -30px;
+}
+
+
+.form-group button a {
+  color:#000000;
+  text-decoration:none;
+}
+
+
+
+.form-group button:hover{
+  background-color: #000000;
+  color:#FFFFFF;
+  text-decoration:none;
+
+
+}
+
+.form-group button a:hover{
+  color:#FFFFFF;
+  background-color: #000000;
+
+}
+
+form {
+  padding-left: 28%;
+  padding-right: 29%;
+  border-radius: 5px;
+  border-color: red;
+}
+
+.form-control{
+  border-radius: 5px;
+  margin-top: 20%;
+  display: block;
+  width: 100%;
+  height: inherit;
+  margin-right: 10%;
+}
+.avatar {
+  width: 64px;
+  margin-left: 6%;
+  border-radius: 40px;
+}
+
+.form-group textarea{
+  margin-left: -15%;
+  margin-top:5%;
+
+}
+
+.icon {
+  width: 64px;
+  margin-left: 6%;
+  border-radius: 40px;
+  margin-bottom: 90px;
+
+}
+
+
+.portlet-body h2{
+ text-align:center;
+ font-family:'Summer';
+ margin-bottom:2% !important;
+ font-size:25px;
+ }
+
+.portlet-body p{
+  text-align:justify;
+  font-size:15px;
+
+}
+
+.portlet-body img{
+  width:100%;
+  height:100%;
+  top:50%;
+  left:50%;
+  margin-top:-5px;
+  margin-left:-5px;
+}
+
+/* Portlet */
+.portlet {
+background: #fafafa;
+padding: 20px;
+margin-bottom: 70px;
+position: relative;
+box-shadow: 0 29px 32px -20px rgba(0,0,0,0.5), 0 4px 11px -3px rgba(0,0,0,0.25);
+
+}
+
+.portlet.portlet-bordered {
+border: 1px solid #eee;
+}
+
+/* Portlet Title */
+.portlet-title {
+padding: 0;
+min-height: 100px;
+border-bottom: 1px solid #eee;
+margin-bottom: 30px;
+
+
+}
+
+.caption {
+float: left;
+display: inline-block;
+font-size: 18px;
+line-height: 18px;
+position: relative;
+}
+
+.caption.caption-green .caption-subject,
+.caption.caption-green i {
+color: #4db3a2;
+font-weight: 200;
+}
+
+.caption.caption-red .caption-subject,
+.caption.caption-red i {
+color: #ce5585 ;
+font-weight: 200;
+}
+
+
+
+.caption.caption-purple .caption-subject,
+.caption.caption-purple i {
+color: #8775a7;
+font-weight: 400;
+}
+
+.caption i {
+color: #777;
+font-size: 15px;
+font-weight: 300;
+margin-top: 3px;
+}
+
+.caption h5{
+  margin-top: -140px;
+  margin-left:100px;
+}
+
+.caption p{
+  margin-top:9px;
+  margin-left:90px;
+  font-size: 15px;
+}
+
+
+
+.caption-subject {
+color: #666;
+font-size: 16px;
+font-weight: 600;
+}
+
+
+
+.caption-helper {
+padding: 0;
+margin-left: 70%;
+line-height: 70px;
+color: #9eacb4;
+font-size: 13px;
+font-weight: 400;
+}
+
+/* Actions */
+.actions {
+float: right;
+display: inline-block;
+}
+
+.actions a {
+margin-left: 3px;
+}
+
+.actions .btn {
+color: #666;
+padding: 3px 9px;
+font-size: 13px;
+line-height: 1.5;
+background-color: #fff;
+border-color: #ccc;
+border-radius: 50px;
+}
+
+.actions .btn i {
+font-size: 12px;
+}
+
+.actions .btn:hover {
+background: #f2f2f2;
+}
+
+
+/* Tab */
+.portlet-title > .nav-tabs {
+background: none;
+margin: 0;
+float: right;
+display: inline-block;
+border: 0;
+}
+
+.portlet-title > .nav-tabs > li {
+background: none;
+margin: 0;
+border: 0;
+}
+
+.portlet-title > .nav-tabs > li > a {
+background: none;
+border: 0;
+padding: 2px 10px 13px;
+color: #444;
+}
+
+.portlet-title > .nav-tabs > li.active,
+.portlet-title > .nav-tabs > li.active:hover {
+border-bottom: 4px solid #f3565d;
+position: relative;
+}
+
+.portlet-title > .nav-tabs > li:hover {
+border-bottom: 4px solid #f29b9f;
+}
+
+.portlet-title > .nav-tabs > li.active > a,
+.portlet-title > .nav-tabs > li:hover > a {
+color: #333;
+background: #fff;
+border: 0;
+}
+
+/* Btn Circle */
+.actions .btn.btn-circle {
+width: 28px;
+height: 28px;
+padding: 3px 7px;
+text-align: center;
+}
+
+.actions .btn.btn-circle i {
+font-size: 11px;
+}
+
+/* Btn Grey Salsa */
+.actions .btn.grey-salsa {
+border: none;
+margin-left: 3px;
+box-shadow: none;
+border-radius: 50px !important;
+}
+
+.actions .btn.grey-salsa.active {
+color: #fafcfb;
+background: #8e9bae;
+}
+.actions .grey-salsa.btn:hover,
+.actions .grey-salsa.btn:focus,
+.actions .grey-salsa.btn:active,
+.actions .grey-salsa.btn.active {
+color: #fafcfb;
+background: #97a3b4;
+}
+
+/* Btn Red */
+.actions .btn.btn-red.active,
+.actions .btn.btn-red:hover {
+color: #fff;
+box-shadow: none;
+background: #e26a6a;
+border-color: #e26a6a;
+}
+
+/* Btn Red */
+.actions .btn.btn-purple.active,
+.actions .btn.btn-purple:hover {
+color: #fff;
+box-shadow: none;
+background: #8775a7;
+border-color: #8775a7;
+}
+
+
+/*comentario*/
+
+button{
+  background-color: #ce5585;
+  color: #ffffff;
+}
+
+hr{
+  margin-left: 15%;
+}
+
+.iconn {
+  width: 64px;
+  border-radius: 40px;
+  margin-bottom: 90px;
+
+}
+
+
+.panel-body form{
+  margin-left: -30%;
+  margin-right: -30%;
+  margin-top: -60%;
+}
+
+.clear p{
+  text-align: left;
+  margin-top:-10px;
+  margin-left:4px;
+  font-size: 10px;
+}
+
+.clear h5{
+  margin-top: -15px;
+  margin-left:13px;
+}
+
+.clear h6{
+  margin-top: 15px;
+  margin-left:13px;
+}
+
+
+
+/* responsivo em mobile*/

@@ -1,0 +1,14 @@
+.invalidado{
+  border: 1px solid red !important;
+}
+
+
+.validado{
+  border: 1px solid green !important;
+
+}
+
+.msg-cor{
+  color: red;
+  font-size: 12px !important;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MotiraItalic';
+    src: url('fonts/MotiraItalic.eot');
+    src: url('fonts/MotiraItalic.eot') format('embedded-opentype'),
+         url('fonts/MotiraItalic.woff2') format('woff2'),
+         url('fonts/MotiraItalic.woff') format('woff'),
+         url('fonts/MotiraItalic.ttf') format('truetype'),
+         url('fonts/MotiraItalic.svg#MotiraItalic') format('svg');
+}

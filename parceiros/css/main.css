@@ -1,0 +1,85 @@
+
+/*---------------------------------------------*/
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+iframe {
+	border: none !important;
+}
+
+
+
+
+/*[ Form]*/
+
+.container-mensagem100 {
+  position:relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-image: url(../imagens/gemeos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+.wrap-mensagem100 {
+	
+  width: 640px;
+  background: rgba(255,255,255,.3);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+/*[ Imagen Form ]*/
+.mensagem100-form-title {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 70px 15px 74px 15px;
+}
+.mensagem100-form-title::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(54,84,99,0.7);
+}
+/*[ Form ]*/
+.textarea-form-border{
+	  border-radius: 25px;
+}
+
+/*[ Button ]*/
+.mensagem100-form-btn {
+  min-width: 160px;
+  height: 50px;
+  background-color:#FF6EB4;
+  border-radius: 25px;
+  font-size: 17px;
+  color: #fff;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.mensagem100-form-btn:hover {
+  background-color:#63B8FF;
+}

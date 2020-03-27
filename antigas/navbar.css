@@ -1,0 +1,267 @@
+* {
+  /*padding:0;
+  margin:0;*/
+}
+
+
+
+/*PRIMEIRA TELA*/
+body{
+  overflow-y: auto;
+}
+
+.teste{
+	font-family: "MotiraItalic";
+}
+
+
+
+@font-face {
+    font-family: 'MotiraItalic';
+    src: url('../fonts/MotiraItalic.eot');
+    src: url('../fonts/MotiraItalic.eot') format('embedded-opentype'),
+         url('../fonts/MotiraItalic.woff2') format('woff2'),
+         url('../fonts/MotiraItalic.woff') format('woff'),
+         url('../fonts/MotiraItalic.ttf') format('truetype'),
+         url('../fonts/MotiraItalic.svg#MotiraItalic') format('svg');
+}
+
+
+
+.logom{   /* logo */
+    width:60px;
+    height:60px;
+    float:left;
+    font-size:0;
+    font-size:0;
+    margin-left: 80%;
+}
+
+.navbar-outro span{   /*botao menu responsivo  */
+  background-color: #f18cb4;
+}
+
+.navbar-nav li a:hover{   /* hover nas palavras do menu  azul*/
+  color: #4b93c6 ;
+  text-decoration:none;
+
+}
+
+.navbar-nav li a{   /* cor nas palavras do menu rosa */
+  color: #ce5585 ;
+  margin-top: 20px;
+  font-size: 15px;
+  font: normal 25px/25px "MotiraItalic";
+
+}
+
+.navbar-outro .navbar-nav li a:hover {  /* deixar o background do menu responsivo transparent */
+    background-color: transparent;
+    background-image: none;
+}
+
+.navbar-outro{        /*  trazendo o menu um pouco mais pra esquerda */
+  background-color:#fafaff;
+  border-color:#ebeeef;
+  color: #fff;
+}
+
+.navbar-outro ul{
+	margin-right:20px;
+}
+
+
+.iconuser {
+  width: 64px;
+  margin-top: 15%;
+  border-radius: 40px;
+}
+
+.navbar-outro .img{
+	float:right;
+
+}
+
+
+
+/* responsivo em mobile*/
+@media screen and (max-width: 480px) {
+.banner{
+    background-image: url(../imagens/banner_home2.jpg);
+    position: fixed;
+    height:100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+.sidebar {  /* efeito da esquerda pra direita menu responsivo */
+	position: absolute;
+	left: 0;
+	width: 250px;
+	height: 100%;
+	background-color:#fafafe;
+	z-index: 8;
+	top: 0;
+	margin-left: -250px;
+}
+
+
+.navbar-outro .img{
+  float: inherit;
+  margin:0;
+}
+
+.navbar-outro{        /*  trazendo o menu um pouco mais pra esquerda */
+  margin-right: 0;
+  background-color:transparent;
+  border-color: transparent;
+
+}
+
+.navbar-outro ul{
+  margin-left: 0;
+}
+
+.iconuser {
+  width: 64px;
+  border-radius: 40px;
+}
+
+
+.account-holder2 {
+  border: 1px solid #ededed;
+  padding: 30px;
+  padding-top:1px;
+  margin-top:15px;
+  height:750px;
+  background: rgba(255,255,255,.3);
+  border-radius:10px;
+}
+
+.logom {
+  width:50px;
+  height:50px;
+  float:right;
+  font-size:0;
+  font-size:0;
+  margin-right:30%;
+}
+
+
+.navbar-outro ul{        /*  trazendo o menu um pouco mais pra esquerda */
+
+margin-right: 40px;
+}
+
+
+.navbar-outro span{
+  margin-top: 60%;
+  margin-left:100%;
+  width:50px;
+  height:50px;
+}
+
+.navbar-nav li a{
+  color: #f18cb4;
+  margin-top: 20px;
+  font-size: 15px;
+  font: 400 15px Lato, sans-serif;
+
+}
+
+.navbar-nav li a:hover{
+  color: #4b93c6;
+  text-decoration:none;
+
+}
+
+}
+
+@media screen and (max-width:768px){
+  .banner{
+      background-image: url(../imagens/banner_home2.jpg);
+      position: fixed;
+      height:100%;
+      width: 100%;
+      overflow-y: scroll;
+  }
+
+
+.sidebar {  /* efeito da esquerda pra direita menu responsivo */
+	position: absolute;
+	left: 0;
+	width: 250px;
+	height: 100%;
+	background-color:#87CEFA;
+	z-index: 8;
+	top: 0;
+	margin-left: -250px;
+}
+
+
+  .space-medium{
+    margin-top: 20%;
+
+  }
+  .navbar-outro .img{
+  float: inherit;
+  margin:0;
+}
+
+.navbar-outro{        /*  trazendo o menu um pouco mais pra esquerda */
+  margin-right: 0;
+  background-color:transparent;
+  border-color: transparent;
+
+
+}
+
+.navbar-outro ul{
+  margin-left: 0;
+}
+  .iconuser {
+    width: 64px;
+    border-radius: 40px;
+  }
+
+
+  .logom {
+    width:50px;
+    height:50px;
+    float:right;
+    font-size:0;
+    font-size:0;
+    margin-left:20px;
+    margin-top: 5%;
+
+  }
+
+  .navbar-outro span{
+    margin-top: 60%;
+    margin-left:100%;
+    width:50px;
+    height:50px;
+    margin-bottom:15%;
+  }
+
+  .navbar-nav li a{
+    color: #ce5585;
+    margin-top: 20px;
+    font-size: 15px;
+    font: 400 15px Lato, sans-serif;
+
+  }
+
+  .navbar-nav li a:hover{
+    color: #94cbf2 ;
+    text-decoration:none;
+
+  }
+
+
+.navbar-outro .navbar-nav li a:hover {
+      background-color: #FFFFFF;
+      background-image: none;
+}
+}

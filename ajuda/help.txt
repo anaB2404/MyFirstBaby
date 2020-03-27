@@ -1,0 +1,3 @@
+https://br.godaddy.com/help/como-conectar-ao-mysql-usando-php-216
+
+http://blog.ultimatephp.com.br/sistema-de-login-php/

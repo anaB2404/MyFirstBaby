@@ -1,0 +1,4 @@
+Coloca o sistema de upload para rodar para voce ver como ele funciona
+logo depois adapta o mesmo para o nosso banco de dados, unindo ao editor de texto.
+lembrando que o esse editor apenas aparece para aos adms.
+Indico criar os campos de postagens em paginas separadas e depois da um include dentro da validação dependendo do tipo usuario.

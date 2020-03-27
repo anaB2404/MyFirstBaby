@@ -1,0 +1,232 @@
+
+/*body{
+	padding:10px;
+}*/
+@font-face {
+    font-family: 'MotiraItalic';
+    src: url('../fonts/MotiraItalic.eot');
+    src: url('../fonts/MotiraItalic.eot') format('embedded-opentype'),
+         url('../fonts/MotiraItalic.woff2') format('woff2'),
+         url('../fonts/MotiraItalic.woff') format('woff'),
+         url('../fonts/MotiraItalic.ttf') format('truetype'),
+         url('../fonts/MotiraItalic.svg#MotiraItalic') format('svg');
+}
+
+.sobrenos{
+	margin-top:1%;
+	font-size:3em;
+	font-weight:bolder;
+	font-family:'MotiraItalic';
+}
+
+
+.sobrenos p{
+	text-align:center;
+}
+
+.marca{
+
+	width:40%;
+	height:50%;
+	text-align:center;
+	margin-left:5%;
+}
+
+/*TEXTO 1*/
+.sobre {
+  text-align: center;
+  background: blue;
+  margin: 20px 0;
+  padding: 10px;
+  
+  
+}
+
+
+.flex-sobre {
+  background: #8d8dff;
+  color: white;
+  box-shadow:10%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  padding-right:10px;
+  padding-left:10px;
+ 
+}
+
+.fa-newspaper{
+  margin-top:15%;
+  margin-left:10vw;
+  font-size:8em;
+  margin-bottom:10%;
+}
+
+.fa-syringe{
+  margin-top:15%;
+  font-size:8em;
+  margin-left:11vw;
+  margin-bottom:10%;
+}
+
+.fa-share-square{
+  margin-top:15%;
+  font-size:8em;
+  margin-left:11vw;
+  margin-bottom:10%;
+}
+
+.fa-mars{
+  margin-top:15%;
+  font-size:10em;
+  margin-left:11vw;
+  margin-bottom:10%;
+}
+
+.fa-mobile-alt{
+	font-size:10em;
+	margin-left:70px;
+	margin-top:-1%;
+	margin-bottom:-1%;
+	color:#321D3D;
+}
+
+.contato{
+	height:10%;
+}
+
+.cel{
+	font-size:2em;
+	
+}
+
+
+.flex-sobre p {
+  margin: 0;
+  padding: 20px;
+  text-align:justify;
+}
+/*TEXTO 1*/
+
+.frase{
+	margin-top: 1px;
+	text-align: center;
+	font-family:'MotiraItalic';
+	color:blue;
+	font-size:2em;
+	
+}
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4{
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.jumbotron{
+    background-color: #30C7FF;
+    color: #fff;
+    padding: 100px 25px;
+    padding-bottom:30px;
+    font-family: Montserrat, sans-serif;
+}
+
+.container-fluid .sobre{
+    padding: 60px 50px;
+
+}
+
+.container-fluidd{
+    padding: 60px 20px;
+    padding-right: 10px;
+}
+
+
+.btn-danger {
+    color: #fff;
+    background-color: #f18cb4;
+      border-color: #f18cb4;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #30C7FF;
+    border-color: #30C7FF;
+}
+
+
+
+.bg-grey{
+    background-color: #f6f6f6;
+}
+
+/*icons*/
+
+.logo-small{
+    color: #f18cb4;
+    font-size: 50px;
+}
+
+.logo{
+    color: #f18cb4;
+    font-size: 200px;
+}
+
+
+/*Avatares*/
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 60%;
+    height: 60%;
+	justify-content:space-around;
+}
+.person:hover {
+    border-color:  #f18cb4;
+}
+
+.persom {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 60%;
+    height: 60%;
+    justify-content:space-around;
+}
+.persom:hover {
+    border-color:  #94cbf2;
+}
+
+
+
+/*Mobile*/
+
+@media screen and (max-width: 768px) {
+.col-sm-4 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.botao{
+	 width:700px;
+}
+
+.btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.logo {
+    font-size: 150px;
+}
+}

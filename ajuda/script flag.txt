@@ -1,0 +1,9 @@
+if(variavel['m']){
+	script css masculino
+}else{
+	script css feminino
+}
+
+jQuery("#submit").click(function(){
+	$("coluna1").html();
+});
